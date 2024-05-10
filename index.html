@@ -1,0 +1,190 @@
+C<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Revanth</title>
+    <!-- Include Tailwind CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css" rel="stylesheet">
+    <!-- Include custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+
+
+
+<body class="bg-white-100">
+
+<!-- HEADER SECTION -->
+
+    <header class="fixed top-0 left-0  w-full bg-black z-50 text-white py-4" >
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-2xl font-semibold">Revanth Kumar</h1>
+            <nav>
+                <ul class="flex space-x-4 mr-4">
+                    <li><a href="#home" class="hover:text-yellow-300 ml-4">Home</a></li>
+                    <li><a href="#about" class="hover:text-yellow-300 ml-4">About</a></li>
+                    <li><a href="#projects" class="hover:text-yellow-300 ml-4">Projects</a></li>
+                    <li><a href="#contact" class="hover:text-yellow-300 ml-4">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+<!-- HOME SECTION  -->
+ 
+    <section id="home" class="py-12 flex items-center min-h-screen" style="margin-top: -24px;">
+        <div class="absolute inset-0 bg-cover bg-center" style="background-image: url(https://parental-control.flashget.com/wp-content/uploads/sites/3/2024/02/remote-control-Android-phone-from-PC.webp); opacity: 0.5;"></div>
+
+        <div class="container mx-auto relative z-10">
+            <div class="flex flex-col md:flex-row items-center">
+                <div class="md:w-1/2 mx-auto text-center">
+                    <h1 class="text-3xl font-semibold mb-4 text-center" style="color: tomato; font-size: 250%;" >HAI! I'M REVANTH KUMAR</h1>
+                    <p class="text-center font-semibold mb-8 text-justify md:mb-0">Welcome to my portfolio, where data transforms into insights and decisions through meticulous analysis and strategic interpretation, illuminating pathways for informed action and innovation.</p>
+                    <button class="bg-black hover:bg-red-700 text-white font-bold py-2 px-4 rounded mt-4" onclick="scrollToAbout()">About Me</button>
+
+                </div> 
+            </div>
+        </div>
+    </section>
+
+<!-- ABOUT SECTION -->
+    
+    <section id="about" class="py-12 flex items-center min-h-screen bg-tomota" style="padding-top: 80px; background-color: tomato;">
+
+
+        <div class="container mx-auto relative z-10">
+            <div class="flex flex-col md:flex-row items-center">
+                <div class="md:w-1/2 mx-auto text-center">
+                    <h2 class="text-3xl font-semibold mb-4" style="opacity: 1.0; align-items: center;">About Me</h2>
+                    <p class="text-white mb-8 text-center md:mb-0" style="opacity: 1.0; align-items: center;">Hello there! I'm Revanth, a passionate data enthusiast with a keen eye for uncovering insights that drive impactful decisions. With a blend of analytical prowess and creative thinking, I navigate through complex datasets to extract meaningful patterns and trends. </p>
+                    <br>
+                    <br>
+                    <p class="text-white mb-8 text-center md:mb-0" style="opacity: 1.0; align-items: center;">As a fresh entrant into the industry, I bring a fresh perspective and a hunger to learn. I'm eager to apply my analytical skills and contribute to meaningful projects that make a difference. Whether it's exploring trends in customer behavior or optimizing processes for efficiency, I'm excited about the endless possibilities that data analysis presents.</p>
+                </div>
+                <div class="md:w-1/2 mt-35 mb-75">
+                    <img src="profile.jpg" alt="Profile Image" class="w-auto h-96 object-cover mx-auto">
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+<!-- PROJECT SECTION-->
+
+    <section id="projects" class="py-12 flex items-center min-h-screen">
+        <div class="container mx-auto relative z-10">
+            <h2 class="text-3xl font-semibold mb-4">Projects</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold mb-2">Online Food Order Analysis</h3>
+                    <a href="project-1-link" target="_blank">
+                        <img src="dashboard1.png" alt="Project 1 Image" class="w-full h-auto object-cover mb-4 cursor-pointer" onclick="first_project()">
+                    </a>
+                    <p class="text-gray-700">Explore the dynamics of the digital dining landscape with my Online Food Order Analysis project. I dissect the intricacies of online food ordering, unraveling consumer habits, market trends, and invaluable insights. Uncover the secrets behind successful digital dining experiences, empowering businesses to tailor their offerings for maximum impact and customer satisfaction.</p>
+                </div>
+                
+
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold mb-2"> Sales Analysis</h3>
+                    <a href="project-2-link" target="_blank">
+                        <img src="dashboard4.png" alt="Project 2 Image" class="w-full h-auto object-cover mb-4 cursor-pointer" onclick="second_project()">
+                    </a>
+                    <p class="text-gray-700">Dive into the realm of HR Data Analytics with my project. Explore the intricate tapestry of employee data, uncovering patterns, insights, and actionable intelligence. From talent acquisition to performance management, I dissect the data to empower HR professionals with the tools they need to make informed decisions and drive organizational success.</p>
+                </div>
+
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold mb-2">HR Data Analysis</h3>
+                    <a href="project-2-link" target="_blank">
+                        <img src="dashboard3.png" alt="Project 2 Image" class="w-full h-auto object-cover mb-4 cursor-pointer" onclick="third_project()">
+                    </a>
+                    <p class="text-gray-700">Dive into the realm of HR Data Analytics with my project. Explore the intricate tapestry of employee data, uncovering patterns, insights, and actionable intelligence. From talent acquisition to performance management, I dissect the data to empower HR professionals with the tools they need to make informed decisions and drive organizational success.</p>
+                </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+<!-- CONTACT SECTION -->
+
+    <section id="contact" class="py-12 bg-gray-200 mt-16 md:mt-24 lg:mt-32">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-semibold mb-4 flex justify-center items-center">Contact</h2>
+            <div class="flex justify-center items-center gap-5">
+                <!-- LinkedIn -->
+                <a href="https://www.linkedin.com/in/revanth-kumar-allanki-ba1193264/" target="_blank">
+                    <img src="logo.png" alt="LinkedIn" class="w-8 h-auto cursor-pointer">
+                </a>
+                <!-- GitHub -->
+                <a href="https://github.com/Revanthallanki" target="_blank">
+                    <img src="github.png" alt="GitHub" class="w-8 h-auto cursor-pointer">
+                </a>
+                <!-- Email -->
+                <a href="mailto:your-email@example.com">
+                    <img src="gamil.png" alt="Email" class="w-8 h-auto cursor-pointer">
+                </a>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+    <!-- Include JavaScript for form submission -->
+
+    <!-- FOR ABOUT ME BUTTON -->
+
+    <script>
+        function scrollToAbout() {
+            document.getElementById('about').scrollIntoView({ behavior: 'smooth' });
+        }
+    </script>
+
+
+
+    <!-- TO OPEN THE PROJECTS -->
+
+
+
+    <script>
+        function first_project() {
+            window.open('project1.html', '_blank');
+        }
+    </script>
+
+
+    <script>
+        function second_project() {
+            window.open('project2.html', '_blank');
+        }
+    </script>
+
+    <script>
+        function third_project() {
+            window.open('project3.html', '_blank');
+        }
+    </script>
+
+
+
+    <script>
+        document.getElementById("contactForm").addEventListener("submit", function(event) {
+            event.preventDefault();
+            // You can add your form submission logic here
+            alert("Form submitted successfully!");
+            // Clear form fields after submission if needed
+            this.reset();
+        });
+    </script>
+</body>
+
+</html>
